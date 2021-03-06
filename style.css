@@ -1,0 +1,187 @@
+*{
+    margin: 0 auto;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* header are start */
+header#hdrpart {
+    width: 100%;
+    min-height: 83px;
+    box-shadow: 0px 0px 3px 2px #d8d5d5;
+    background: #f0f0f0;
+}
+
+.leftlogo {width: 13%;float: left;}
+
+nav.praimaryNavigation {
+    width: 84%;
+    float: right;
+}
+
+nav.praimaryNavigation>ul {
+    float: right;
+    padding-right: 15px;
+}
+
+nav.praimaryNavigation>ul>li {
+    display: inline-block;
+    float: left;
+}
+
+nav.praimaryNavigation>ul>li>a {
+    display: block;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 17px 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #5f5e5e;
+}
+nav.praimaryNavigation>ul>li>a:hover{
+    color: #F9014D;
+}
+
+.leftlogo img {
+    width: 90px;
+    padding-left: 19px;
+}
+
+nav.praimaryNavigation>ul>li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    transition: all 0.50s;
+}
+nav.praimaryNavigation>ul>li:hover:after {
+    width: 100%;
+
+}
+/*header area end */
+/* start WhpIm section*/
+
+
+section#whoIm {
+    width: 100%;
+    overflow: hidden;
+}
+
+div#leftIm {
+    width: 48%;
+    float: left;
+    padding-left: 20px;
+}
+
+.rightIm {
+    float: right;
+    width: 50%;
+}
+
+div#leftIm>p {
+    padding: 50px 0px 23px 9px;
+}
+
+div#leftIm>h2>span {
+    color: #F8004E;
+}
+
+div#leftIm>h2 {
+    font-size: 124px;
+    line-height: 122px;
+}
+.rightIm img {
+    width: 934px;
+    height: 500px;
+    float: right;
+}
+/* end WhpIm section*/
+/* about section start*/
+
+section#aboutMe {
+    overflow: hidden;
+    width: 100%;
+    border-top: 10px solid #ccc;
+}
+
+.leftAbout {
+    width: 48%;
+    float: left;
+    padding-left: 20px;
+}
+
+.rightAbout {
+    width: 50%;
+    float: right;
+    margin-top: 10%;
+}
+.leftAbout>img {
+    height: 566px;
+    margin: 50px 50px 50px 0px;
+    border-left: 10px solid red;
+    border-top: 10px solid red;
+}
+.rightAbout>h3 {
+    padding: 15px 0px;
+}
+
+.rightAbout>p {
+    line-height: 28px;
+    margin: 18px 0px;
+}
+button.btn_About {
+    background: red;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/* about section end*/
+.serviceHeading{
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+    width: 431px;
+}
+
+.serviceHeading>h2 {
+    font-size: 45px;
+}
+
+.serviceHeading>p {
+    line-height: 30px;
+}
+
+.fullServicePart {
+    overflow: hidden;
+    width: 100%;
+}
+
+.servicespart {
+    width: 30%;
+    float: left;
+    margin: auto;
+    text-align: center;
+    margin: 31px;
+    box-shadow: 0px 0px 6px 2px #ededed;
+}
+
+.servicespart>i {
+    font-size: 50px;
+    margin: 10px;
+    background: rgb(196, 196, 196);
+    height: 74px;
+    width: 84px;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+
+
+
+.servicespart>h3 {
+    padding: 10px 0px;
+}
+
