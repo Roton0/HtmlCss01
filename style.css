@@ -2,7 +2,7 @@
     margin: 0 auto;
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 /* header are start */
 header#hdrpart {
@@ -88,7 +88,7 @@ div#leftIm>h2>span {
 }
 
 div#leftIm>h2 {
-    font-size: 124px;
+    font-size: 100px;
     line-height: 122px;
 }
 .rightIm img {
@@ -129,6 +129,7 @@ section#aboutMe {
 .rightAbout>p {
     line-height: 28px;
     margin: 18px 0px;
+    text-align: justify;
 }
 button.btn_About {
     background: red;
@@ -140,6 +141,7 @@ button.btn_About {
     cursor: pointer;
 }
 /* about section end*/
+/* Start Service section */
 .serviceHeading{
     clear: both;
     margin: 0 auto;
@@ -184,4 +186,215 @@ button.btn_About {
 .servicespart>h3 {
     padding: 10px 0px;
 }
+/* End Services section */
+/* Start Skill section */
+section#skillSection {
+    background: #f5f6f8;
+    overflow: hidden;
+    padding: 40px 28px;
+}
 
+.leftSectionSkills {
+    width: 48%;
+    float: left;
+}
+
+.rightSectionSkills {
+    width: 48%;
+    float: right;
+}
+.leftSectionSkills>h2 {
+    color: #001149;
+    font-size: 30px;
+}
+p.skill1 {
+    text-align: justify;
+    padding: 25px 0px;
+    line-height: 25px !important;
+}
+
+.leftSectionSkills>p {
+    line-height: 30px;
+}
+
+.hirebtn {
+    border-radius: 28px;
+    margin-top: 20px;
+    background: #E42F39 !important;
+    padding: 16px !important;
+}
+
+i.fas.fa-check {
+    color: #7EA899;
+}
+
+.mainprogress {
+    height: 23px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.myProgressItem {
+    padding: 11px 0px;
+}
+.innerprogress.css_html {
+    background: #2BB66E;
+    width: 76%;
+}
+
+
+
+.innerprogress.jQuary {
+    background: #FD6A40;
+    width: 90%;
+}
+
+.innerprogress {
+    height: 23px;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.innerprogress.wordpress {
+    background: #208FF6;
+    width: 75%;
+}
+
+.innerprogress.joomla {
+    background: #FF9B26;
+    width: 87%;
+}
+
+.innerprogress.seo {
+    background: #ED5DD1;
+    width: 65%;
+}
+/* end Skill section */
+/*Contact Section Start */
+
+section#FullContact {
+    overflow: hidden;
+    padding: 41px 20px;
+}
+
+.leftContact {
+    width: 48%;
+    float: left;
+}
+
+.rightContact {
+    width: 48%;
+    float: left;
+    margin: auto;
+    text-align: center;
+}
+
+h2.hireMe {
+    font-size: 45px;
+    font-weight: 700;
+    padding: 0px 0px 10px 0px;
+}
+
+
+.leftContact>p {
+    padding: 10px 0px 20px 0px;
+    text-align: justify;
+}
+.ContactFrom>form>input{
+    display: block;
+    width: 92%;
+    float: left;
+    margin: 10px 0px;
+    height: 30px;
+    border: 2px solid #EAEAEA;
+    outline: none;
+    border-radius: 4px;
+}
+.ContactFrom>form>textarea{
+    display: block;
+    width: 92%;
+    float: left;
+    margin: 10px 0px;
+    border: 2px solid #EAEAEA;
+    outline: none;
+    border-radius: 4px;
+}
+input.submitBtn {
+    background: #F8004E;
+    color: white;
+    height: 47px !important;
+    width: 186px !important;
+    font-size: 20px !important;
+    border-radius: 8px !important;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.rightContact>img {
+    height: 500px;
+    box-shadow: 0px 0px 6px 4px #848484a6;
+    border-radius: 5px;
+}
+
+
+/*Contact Section end */
+/* footer section start */
+section#mainfooterSection {
+    overflow: hidden;
+    background: #f1f1f169;
+    border-top: 1px solid #f9f9f9;
+}
+
+.leftFooterSection {
+    width: 49%;
+    float: left;
+    padding: 38px 10px;
+}
+.leftFooterSection>span {
+    font-weight: 800
+}
+.rightFooterSection {
+    width: 49%;
+    float: right;
+}
+.socialIcon {
+    display: inline-block;
+}
+
+.mainrightSection {
+    padding: 38px 10px 10px 597px;
+}
+
+
+
+.socialIcon {
+}
+
+i.fab.fa-twitter {
+    color: #478FE8;
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+i.fab.fa-pinterest {
+    color: red;
+    padding-right: 8px;
+    cursor: pointer;
+}
+i.fab.fa-facebook-square {
+    padding-right: 8px;
+    color: #3C527C;
+    cursor: pointer;
+}
+
+i.fab.fa-skype {
+    color: #4C95D3;
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+i.fab.fa-instagram {
+    color: red;
+    cursor: pointer;
+    padding: 8px;
+}
